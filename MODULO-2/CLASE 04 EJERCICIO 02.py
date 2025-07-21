@@ -33,7 +33,7 @@ total_empleados = 0
 
 # Se usa un ciclo for para recorrer el diccionario y condición para filtrar por edad.
 # Se imprime nombre y edad de empleados mayores de 30 años. Los menores se almacenan en una lista.
-for emp_id, datos in empleados.items():
+for emp, datos in empleados.items():
     total_empleados += 1
     nombre = datos['nombre']
     edad = datos['edad']
