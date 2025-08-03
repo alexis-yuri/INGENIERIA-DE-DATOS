@@ -1,0 +1,6 @@
+producto,precio,fecha,metodo_pago
+producto1,15000.0,2024-01-10,tarjeta
+producto2,35000.0,10-01-2024,Tarjeta
+producto3,25000.0,2024/01/11,efectivo
+producto1,15000.0,2024-01-10,tarjeta
+producto3,,,efectivo
