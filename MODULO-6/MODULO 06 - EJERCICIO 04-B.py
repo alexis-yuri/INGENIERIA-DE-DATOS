@@ -21,11 +21,11 @@ df["Ventas_Miles_Unidades"] = df["Ventas_Miles_Unidades"].astype(str).str.replac
 print("Vista previa del dataset:")
 print(df.head())
 
-# Se definirdefinen variables caracteristicas (X) y objetivo (y).
+# Se definen variable caracteristica (X) y objetivo (y).
 X = df[["Inversion_Redes_USD"]]
 y = df["Ventas_Miles_Unidades"]
 
-# Se realiza division del dataset entre entrenamiento y test.
+# Se realiza división del dataset entre entrenamiento y test.
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # Se entrena el modelo de regresion lineal.
